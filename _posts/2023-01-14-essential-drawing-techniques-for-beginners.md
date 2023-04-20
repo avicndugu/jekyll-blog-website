@@ -2,8 +2,8 @@
 layout: post
 title:  "5 Essential Drawing Techniques for Beginners"
 author: john
-categories: [ beginner, tutorial ]
-tags: [techniques]
+# categories: [ beginner, tutorial ]
+# tags: [beginners]
 image: assets/images/11.jpg
 description: "Learn the basic drawing techniques that every beginner needs to know, such as contour drawing, shading, perspective, composition and value and start creating more realistic and detailed drawings."
 featured: true

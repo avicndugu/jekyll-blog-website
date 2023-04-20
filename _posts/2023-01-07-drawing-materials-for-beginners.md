@@ -2,7 +2,7 @@
 layout: post
 title:  "Drawing Materials For Adult Beginners"
 author: john
-categories: [ beginner, tutorial ]
+# categories: [ beginner, tutorial ]
 image: assets/images/12.jpg
 featured: true
 hidden: true
