@@ -21,7 +21,6 @@
 </head>
 
 {% if jekyll.environment == 'production' %}
-<!-- change your GTAG id in _config.yml -->
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-TF6YTK2JPE"></script>
 <script>
@@ -29,7 +28,7 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', '{{site.google_analytics}}');
+  gtag('config', 'G-TF6YTK2JPE');
 </script>
 {% endif %}
 
