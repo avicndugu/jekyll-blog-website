@@ -18,9 +18,6 @@
 
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
 
-</head>
-
-{% if jekyll.environment == 'production' %}
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-TF6YTK2JPE"></script>
 <script>
@@ -30,8 +27,8 @@
 
   gtag('config', 'G-TF6YTK2JPE');
 </script>
-{% endif %}
 
+</head>
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
 <body class="{{layout}}">
 	<!-- defer loading of font and font awesome -->
